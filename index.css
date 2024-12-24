@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Smythe, Georgia, Times New Roman, serif;
+} 
+
+#banner{
+    background-image: url('/bg-1.png') ;
+    width: 600px;
+    height: 167px;
+    margin: 0;
+    display: flex;
+}
+
+#banner-text{
+    color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+h1{
+    font-size: 39px;
+    font-weight:lighter;
+}
+
+h2{
+    font-size: 22.42px;
+    font-weight:lighter
+}
+
+#banner h1,
+#banner h2{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.emoji-details{
+    display: flex;
+    flex-direction: column;  
+    width: 358px;
+    height: 24px;
+    justify-content: center;
+}
+
+.emoji{
+    margin-right: 20px;
+    font-size: 78.72px;
+    
+}
+
+.menu-name{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.menu-ingredients{
+    font-size: 16px;
+    font-weight:lighter;
+    color: #8B8B8B;
+    
+}
+
+.menu-price{
+    font-size: 20px;
+}
+
+.custom-line {
+    background-color: #D2D2D2;
+    height: 1px;
+    border: none;
+    width: 504px; 
+    margin-left: 20px;
+    text-align: center;
+}
+
+
+.custom-line-div{
+    display: flex;
+    
+}
+.add-icon-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 50%;
+    width: 27px;
+    height: 28.5px;
+    border: 2px solid #DEDEDE;
+    
+}
+
+.order-title{
+    text-align: center;
+    font-size: 28px;
+}
+
+.order-name{
+    margin-left: 15px;
+    text-align: center;
+    align-items: center;
+    font-size: 28px;
+    width: 20px;
+    
+    
+}
+.order-price{
+    margin-left: 460px;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.menu-deatils {
+   display: flex;
+   align-items: center; 
+    
+}
+
+.total-price-details{
+    display: flex;
+    align-items: center;
+    
+}
+.total-price-text{
+    margin-left: 15px;
+    font-size: 28px;
+}
+
+.total-price-value{
+    margin-left: 386px;
+    font-size: 20px;
+}
+
+.complete-order-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    margin: 10px;
+    margin-left: 198px;
+    padding: 20px;
+    background-color: #16DB99;
+}
+
+.card-payment-container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 400px; 
+}
+
+.card-payment-header h2 {
+    text-align: center;
+}
+
+.card-payment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 8px;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.payment-button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.payment-button{
+    background-color: #16DB99;
+}
+
+.thank-you-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #065F46;
+    font-size: 32px;
+    text-align: center;
+    width: 504px;
+    height: 120px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background-color: #ECFDF5;
+    
+}
+
